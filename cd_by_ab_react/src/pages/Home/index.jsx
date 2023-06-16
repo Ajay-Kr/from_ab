@@ -8,7 +8,7 @@ import { useState } from 'react';
 import Players from 'components/Players';
 
 const Fixtures = () => {
-  const [activeNav, setActiveNav] = useState("players");
+  const [activeNav, setActiveNav] = useState("news");
 
   // console.log(activeNav);
 
