@@ -7,7 +7,7 @@
     "start": "node app.js",
     "dev": "nodemon app.js",
     "client": "cd ../cd_by_ab_react && npm start",
-    "conc": "concurrently \"npm run dev\" \"npm run client\" "
+    "conc": "concurrently \"npm start\" \"npm run client\" "
   },
   "keywords": [],
   "author": "",
