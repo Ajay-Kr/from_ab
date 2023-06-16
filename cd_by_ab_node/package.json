@@ -1,0 +1,23 @@
+{
+  "name": "cd_by_ab_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "client": "cd ../cd_by_ab_react && npm start",
+    "conc": "concurrently \"npm run dev\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}

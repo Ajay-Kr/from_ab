@@ -1,0 +1,17 @@
+cd_by_ab_react/node_modules
+cd_by_ab_react/pnp.js
+cd_by_ab_react/pnp
+cd_by_ab_react/coverage
+cd_by_ab_react/build
+
+cd_by_ab_react/.DS_Store
+cd_by_ab_react/.env.local
+cd_by_ab_react/.env.development.local
+cd_by_ab_react/.env.test.local
+cd_by_ab_react/.env.production.local
+
+cd_by_ab_react/npm-debug.log*
+cd_by_ab_react/yarn-debug.log*
+cd_by_ab_react/yarn-error.log*
+
+cd_by_ab_node/node_modules

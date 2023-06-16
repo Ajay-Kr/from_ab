@@ -1,0 +1,14 @@
+/* .container {
+  display: flex;
+  flex-direction: column;
+} */
+
+.container .news {
+  width: 70%;
+  float: left;
+}
+
+.container .add {
+  width: 30%;
+  float: right;
+}

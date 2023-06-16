@@ -1,0 +1,51 @@
+.wrapper {
+  position: relative;
+  width: 18rem;
+  margin: 10px;
+}
+
+.wrapper:hover  .card img {
+  transform: scale(.99);
+  transition: all .3s ease-in-out;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.card-text {
+  font-style: italic;
+  color: rgb(118, 118, 118)
+}
+.card-body a {
+  background-color: transparent;
+  border: none;
+  color: #dd7070;
+}
+.card-body a:hover {
+  background-color: #dd7070;
+  border: #dd7070;
+  color: white;
+}
+.card-body a:p {
+  background-color: #dd7070;
+  border: #dd7070;
+}
+
+
+.card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: -8px;
+  bottom: -8px;
+  background-color: rgba(64, 64, 64, 0.71);
+  border-radius: 7px;
+}
+
+.wrapper:hover .card-back {
+  box-shadow: 0px -25px 20px -20px rgba(64, 64, 64, 0.71), 25px 0 20px -20px rgba(64, 64, 64, 0.71), 0px 25px 20px -20px rgba(64, 64, 64, 0.71), -25px 0 20px -20px rgba(64, 64, 64, 0.71);
+  background-color: rgba(64, 64, 64, 0.71);
+  width: 105.5%;
+  height: 104%;
+  transition: all .5s ease-in-out;
+}

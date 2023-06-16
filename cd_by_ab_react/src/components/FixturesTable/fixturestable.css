@@ -1,0 +1,83 @@
+main {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  /* height: 70vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.bg-img {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/003/686/552/original/soccer-logo-america-logo-classic-logo-free-vector.jpg');
+  filter: blur(4px);
+  height: 100%;
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-img-2 {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/003/686/552/original/soccer-logo-america-logo-classic-logo-free-vector.jpg');
+  filter: blur(4px);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-content {
+  position: relative;
+  border-radius: 10px;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.265); /* Black w/opacity/see-through */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 95%;
+  padding: 20px;
+}
+
+.heading {
+  margin: 10px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.heading::after, .heading::before {
+  position: absolute;
+  left: 3px;
+  bottom: -5px;
+  width: 50px;
+  height: 4px;
+  content: "";
+  margin:auto;
+  background-color: #e4e4e4;
+}
+
+.heading::before {
+  background-color:#dd7070;
+  left:35px; 
+  width:110px;
+}
+
+table tr td, 
+table tr th {
+  background-color: transparent !important;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}
+
+.team-logo {
+  height: 30px;
+}
+

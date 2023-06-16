@@ -1,0 +1,8 @@
+.add-card .card {
+  background: linear-gradient(75deg, rgba(248, 248, 248, 0.8) 50%, #dd7070 0%);
+  background: -moz-linear-gradient(125deg, rgba(248, 248, 248, 0.8) 50%, #dd7070 0%);
+  width: 18rem;
+  height: 15rem;
+  padding-top: 45px;
+  margin: 10px 0;
+}
